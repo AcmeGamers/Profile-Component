@@ -1,0 +1,116 @@
+:root {
+  /* Background */
+  --bg: #19a1ad;
+  --card_bg: #fff;
+
+  /* Text */
+  --bold-color: #2f3140;
+  --font-color: #9a9da4;
+
+  /* widths */
+  --desktop-card-width: 275px;
+}
+
+body {
+  background: var(--bg);
+  color: var(--font-color);
+  font-family: "Outfit", system-ui;
+  margin: 0;
+}
+
+/* The Card */
+.card {
+  background: var(--card_bg);
+  border-radius: 20px;
+  box-shadow: 5px 5px 20px 0px #00000024;
+
+  padding: 20px 10px;
+  width: var(--desktop-card-width);
+}
+
+/* The Elements */
+h1 {
+  color: var(----bold-color);
+  font-size: 20px;
+  font-weight: 700;
+  margin: 20px 0 0;
+}
+
+p {
+  font-size: 18px;
+  font-weight: 100;
+}
+
+hr {
+  height: 1px;
+  margin: 0;
+  border: none;
+  width: 100%;
+  background-color: hsl(215, 32%, 27%);
+}
+
+/* Component Styling */
+.user {
+  margin-top: 10px;
+  width: 80px;
+  border-radius: 50px;
+  border: 5px solid white;
+}
+
+.stats p:nth-child(1) {
+  color: var(--bold-color);
+  font-weight: 700;
+}
+.stats p {
+  font-size: 18px;
+  margin: 5px;
+  text-align: center;
+}
+
+/* Custom Styling */
+
+.flex {
+  display: flex;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.vr-center {
+  align-items: center;
+}
+.hr-center {
+  justify-content: center;
+}
+
+.screen-height {
+  height: 100vh;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.full-width-element {
+  width: -webkit-fill-available;
+}
+
+/* 
+### Primary
+
+Dark cyan: hsl(185, 75%, 39%)
+Very dark desaturated blue: hsl(229, 23%, 23%)
+Dark grayish blue: hsl(227, 10%, 46%)
+
+### Neutral
+
+Dark gray: hsl(0, 0%, 59%)
+
+ */
